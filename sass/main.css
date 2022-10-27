@@ -1,0 +1,116 @@
+header {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+header .logo {
+  width: 170px;
+}
+
+.location {
+  display: flex;
+  font-weight: bold;
+  color: rgb(75, 73, 73);
+  background-color: rgb(234, 233, 233);
+  justify-content: center;
+  box-shadow: inset 0em 0.1em 5px rgba(0, 0, 0, 0.1);
+}
+.location p {
+  margin-left: 20px;
+}
+.location .fa-location-dot {
+  line-height: 3;
+}
+
+.first-block {
+  width: 100%;
+  height: 300px;
+  margin: auto;
+  text-align: center;
+  font-size: 13px;
+  background-color: #f9f9f9;
+}
+.first-block .first-block_h1 {
+  margin-top: 0;
+  padding: 40px 40px 0 40px;
+  font-weight: 700;
+  color: red;
+}
+.first-block .first-block_p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: rgb(75, 73, 73);
+}
+
+.btn {
+  padding: 15px 20px;
+  background-color: #FF79DA;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.block-fonctionnement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 700;
+  gap: 20px;
+  margin-top: 30px;
+}
+.block-fonctionnement .block-fonctionnement_h2 {
+  margin-left: -170px;
+  margin-bottom: 0;
+}
+
+.block-fonctionnement_elements {
+  display: flex;
+  border: 1px solid black;
+  justify-content: flex-start;
+  width: 90%;
+  gap: 1.8em;
+  font-weight: 600;
+  border-radius: 20px;
+  background-color: #f9f9f9;
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
+}
+
+.block-icons {
+  margin-left: -6px;
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.icon-fonctionnement {
+  line-height: 2.5;
+  color: rgb(75, 73, 73);
+  font-size: 1.2em;
+  font-weight: inherit;
+}
+
+.icon-number {
+  font-size: 0.8em;
+}
+
+* {
+  font-family: roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap-site {
+  margin: 0 auto;
+  width: 375px;
+}/*# sourceMappingURL=main.css.map */

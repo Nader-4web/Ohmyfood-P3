@@ -1,9 +1,9 @@
-header {
+.header-accueil {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 10px;
 }
-header .logo {
+.header-accueil .logo {
   width: 170px;
 }
 
@@ -39,12 +39,9 @@ header .logo {
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
-  color: rgb(75, 73, 73);
 }
 
-.btn {
+.btn-accueil {
   padding: 15px 20px;
   border: none;
   border-radius: 50px;
@@ -58,8 +55,8 @@ header .logo {
   transition: 0.5s ease-in-out;
 }
 
-.btn:hover {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+.btn-accueil:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   background-color: #FF79DA;
 }
 
@@ -84,7 +81,7 @@ header .logo {
   gap: 1.8em;
   font-weight: 600;
   border-radius: 25px;
-  background-color: #f9f9f9;
+  background-color: whitesmoke;
   border: none;
   box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.2);
   padding: 10px 0;
@@ -127,7 +124,7 @@ header .logo {
 }
 
 .block-resto {
-  background-color: #f9f9f9;
+  background-color: whitesmoke;
   margin-top: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -182,8 +179,8 @@ header .logo {
   color: rgb(75, 73, 73);
 }
 
-.fa-heart {
-  font-size: 30px;
+.coeur-acceuil {
+  font-size: 27px;
   position: absolute;
   right: 25px;
   top: 220px;
@@ -234,17 +231,124 @@ footer .h3-footer {
   margin-right: 5px;
 }
 
+.header-a-la-fr {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.header-a-la-fr .logo-page1 {
+  width: 170px;
+  margin-bottom: 8px;
+}
+.header-a-la-fr .fa-arrow-left {
+  position: absolute;
+  left: 20px;
+  top: 5px;
+  font-size: 22px;
+}
+
+.img-de-fond {
+  width: 100%;
+  object-fit: cover;
+}
+
+.nom-resto-coeur {
+  display: flex;
+  justify-content: space-between;
+}
+.nom-resto-coeur .nom-resto {
+  font-family: shrikhand;
+  font-size: 25px;
+}
+.nom-resto-coeur .coeur-menu1 {
+  position: absolute;
+  right: 20px;
+  top: 13px;
+  font-size: 27px;
+}
+
+.block-menu {
+  background-color: whitesmoke;
+  padding-bottom: 30px;
+  border-radius: 30px 30px 0 0;
+  margin-top: -45px;
+  z-index: 100;
+  position: relative;
+}
+
+.menu {
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.menu_h3 {
+  color: rgb(75, 73, 73);
+  font-size: 16px;
+  border-bottom: 3px solid #99E2D0;
+  padding-bottom: 5px;
+  width: 42px;
+}
+
+.nom-plat {
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.nom-plat p {
+  margin: 0;
+  font-weight: 700;
+  font-size: 17px;
+}
+.nom-plat .entrees-ingredients-prix {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nom-plat:hover {
+  cursor: pointer;
+}
+
+.couleur-ingredients {
+  color: rgb(75, 73, 73);
+  font-size: 0.9em;
+}
+
+.prix {
+  font-weight: 700;
+}
+
+.btn-menu {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  background: rgb(255, 121, 218);
+  background: linear-gradient(180deg, rgb(255, 121, 218) 0%, rgb(147, 86, 220) 100%);
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.btn-menu:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  background-color: #FF79DA;
+}
+
 * {
   font-family: roboto, sans-serif;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-}
-
-.wrap-site {
   margin: 0 auto;
+  padding: 0;
   max-width: 900px;
 }
 

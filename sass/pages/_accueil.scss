@@ -1,13 +1,77 @@
 
-.header-accueil{
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 10px;
+/////////////////////////////////// ANIMATION CHARGEMENT /////////////////////////////////
 
-    .logo{
-        width: 170px;
-         }
+
+.chargement-page{
+    position: fixed;
+    background-color: #fff;
+    opacity: 1;
+    inset: 0;
+    transform: scale(1);
+    transition: 2s;
+    animation: chargement  0s 2s forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+
 }
+
+.block-loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.p_chargement{
+    margin-top: 5px;
+    color: #9356DC;
+    font-weight: 600;
+}
+
+.circle{
+
+    display: flex;
+}
+
+.circle::after{
+    content: "";
+    width: 50px;
+    height: 50px;
+    border: 10px solid #99E2D0;
+    border-top-color: #FF79DA;
+    border-bottom-color: #9356DC;
+    border-radius: 50%;
+    animation: loading 2s linear forwards;
+    
+}
+
+
+@keyframes chargement{
+    from{
+        transform: scale(1);
+    }
+
+    to{
+        transform: scale(0);
+    }
+
+}   
+
+
+@keyframes loading{
+    to{
+        transform: rotate(4turn);
+    }
+}
+
+/////////////////////////////////// FIN ANIMATION CHARGEMENT /////////////////////////////////
+
+
+
+
 
 
 .location{
@@ -53,27 +117,7 @@
 }
 
 
-.btn-accueil{
-    padding: 15px 20px;
-    border: none;
-    border-radius: 50px;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 400;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    background: rgb(255,121,218);
-    background: linear-gradient(180deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
- }
 
- .btn-accueil:hover{
-    
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    background-color: $secondaire;
-    
-
- }
 
 
  .block-fonctionnement{
@@ -164,7 +208,6 @@
 }
 
 .resto_h2{
-    // margin-left: 20px;
     font-weight: 700;
     margin-right: auto;
     padding-left: 20px;
@@ -232,53 +275,34 @@
  .heart-full{
     opacity: 0;
     color: $secondaire;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
  }
 
 .heart-full:hover{
     opacity: 1;
- }
-
- footer{
-    background-color: #413f3f;
-
-    .h3-footer{
-        font-family: shrikhand;
-        color: white;
-        padding-top: 20px;
-        margin-left: 25px;
-        margin-top: 0;
-    }
- }
-
- .footer_elements{
-    color: #fff;
-    font-weight: 400;
-    font-size: 0.9em;
-    list-style-type: none;
-    padding-left: 0;
-    padding-bottom: 40px;
-    margin-left: 20px;
-
+    transform: scale(1.2);
  }
 
 
- .footer_elements li{
-    padding: 5px;
 
-    
- }
+//  @keyframes chargement{
+//     from{
+//         transform: scale(1);
+//     }
+
+//     to{
+//         transform: scale(0);
+//     }
+
+// }   
 
 
- .fa-utensils::after{
-    content: '';
-    margin-right: 10px;
- }
-
- .fa-handshake-angle{
-    content: '';
-    margin-right: 5px;
-
- }
+// @keyframes loading{
+//     to{
+//         transform: rotate(4turn);
+//     }
+// }
 
 
 

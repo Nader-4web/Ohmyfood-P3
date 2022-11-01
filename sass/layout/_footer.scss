@@ -1,0 +1,41 @@
+footer{
+    background-color: #413f3f;
+
+    .h3-footer{
+        font-family: shrikhand;
+        color: white;
+        padding-top: 20px;
+        margin-left: 25px;
+        margin-top: 0;
+    }
+ }
+
+ .footer_elements{
+    color: #fff;
+    font-weight: 400;
+    font-size: 0.9em;
+    list-style-type: none;
+    padding-left: 0;
+    padding-bottom: 40px;
+    margin-left: 20px;
+
+ }
+
+
+ .footer_elements li{
+    padding: 5px;
+
+    
+ }
+
+
+ .fa-utensils::after{
+    content: '';
+    margin-right: 10px;
+ }
+
+ .fa-handshake-angle::after{
+    content: '';
+    margin-right: 5px;
+
+ }

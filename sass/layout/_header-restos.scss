@@ -1,0 +1,35 @@
+
+
+// --------------------------   H E A D E R    A C C U E I L   -------------------- //
+
+.header-accueil{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    .logo{
+        width: 170px;
+         }
+}
+
+
+
+// --------------------------   H E A D E R    R E S T A U R A N T S   -------------------- //
+
+.header-restos{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+
+    .logo-page1{
+        width: 170px;
+        margin-bottom: 8px;
+         }
+         .fa-arrow-left{
+            position: absolute;
+            left: 20px;
+            top: 5px;
+            font-size: 22px;
+         }
+}

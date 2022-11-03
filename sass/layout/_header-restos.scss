@@ -9,6 +9,13 @@
 
     .logo{
         width: 170px;
+
+        @media screen and (min-width:1024px){
+
+            width: inherit;
+           
+            }
+            
          }
 }
 

@@ -7,6 +7,12 @@ footer{
         padding-top: 20px;
         margin-left: 25px;
         margin-top: 0;
+
+        @media screen and (min-width:768px){
+         text-align: center;
+         margin-left: 0;
+         margin-bottom: 40px;
+        }
     }
  }
 
@@ -18,6 +24,13 @@ footer{
     padding-left: 0;
     padding-bottom: 40px;
     margin-left: 20px;
+
+    @media screen and (min-width:768px){
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0px;
+      
+    }
 
  }
 

@@ -11,9 +11,20 @@
     display: flex;
     justify-content: space-between;
 
+    @media screen and (min-width:1024px){
+        display: block;
+    }
+
     .nom-resto{
         font-family: shrikhand;
         font-size: 25px;
+
+        @media screen and (min-width:1024px){
+           font-size: 40px;
+           padding-top: 50px;
+           margin-left: 0;
+           margin-top: 0;
+        }
     }
 
     .coeur-menu1{
@@ -21,6 +32,12 @@
         right: 20px;
         top: 13px;
         font-size: 27px;
+
+        @media screen and (min-width:1024px){
+            right: 238px;
+            top: 54px;
+            font-size: 40px;
+        }
     }
 }
 
@@ -31,6 +48,12 @@
     margin-top: -45px;
     z-index:100;
     position: relative;
+
+    @media screen and (min-width:1024px){
+        border-radius: 0;
+        margin-top: -15px;
+
+    }
 }
 
 
@@ -38,6 +61,13 @@
     width: 95%;
     margin: 0 auto;
     margin-bottom: 30px;
+
+    @media screen and (min-width:1024px){
+        display: flex;
+        width: initial;
+        margin: 0;
+        margin-bottom: 30px;
+    }
 
             // ///////////////////////  ANIMATION MENU //////////////////////////////////
 
@@ -57,7 +87,7 @@
       }
 
             // ///////////////////////  FIN ANIMATION MENU //////////////////////////////////
-    
+   
       
    
 }
@@ -69,6 +99,12 @@
     border-bottom: 3px solid $tertiaire;
     padding-bottom: 5px;
     width: 42px;
+
+    @media screen and (min-width:1024px){
+       position: absolute;
+    //    top: 0px;
+       left: 10px;
+    }
 }
 
 
@@ -80,6 +116,13 @@
     display: flex;
     overflow: hidden;
     justify-content: space-between;
+
+    @media screen and (min-width:1024px){
+        width: 30%;
+        margin-left: 10px;
+        margin-top: 70px;
+    }
+
     
    
     p{

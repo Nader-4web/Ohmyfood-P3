@@ -1,69 +1,69 @@
 // ///////////////////  BOUTON PAGE ACCEUIL  /////////////////////
 
-.btn-acceuil{
+.btn-acceuil {
     display: block;
-    margin:  auto;
+    margin: auto;
     padding: 10px 40px;
     border: none;
     border-radius: 30px;
     color: #fff;
     font-size: 16px;
     font-weight: 400;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    background: linear-gradient(180deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    background: linear-gradient(180deg, rgba(255, 121, 218, 1) 0%, rgba(147, 86, 220, 1) 100%);
     cursor: pointer;
     transform: scale(1);
     transition: all 0.2s ease-in-out;
 
-    
-    @media screen and (min-width:768px)and (max-width:1024px){
+
+    @media screen and (min-width:768px)and (max-width:1024px) {
 
         margin-top: 80px;
-         
+
     }
 
-    @media screen and (min-width:1025px){
+    @media screen and (min-width:1025px) {
         position: relative;
         top: 15vh;
     }
 
 }
 
-.btn-acceuil:hover{
-    
+.btn-acceuil:hover {
+
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     transform: scale(1.1);
-    
 
- }
+
+}
 
 /////////////////////////  BOUTON PAGES RESTOS  ///////////////////////////
 
- .btn{
+.btn {
     display: block;
-    margin:  auto;
+    margin: auto;
     padding: 10px 40px;
     border: none;
     border-radius: 30px;
     color: #fff;
     font-size: 16px;
     font-weight: 400;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    background: linear-gradient(180deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    background: linear-gradient(180deg, rgba(255, 121, 218, 1) 0%, rgba(147, 86, 220, 1) 100%);
     cursor: pointer;
     transform: scale(1);
     transition: all 0.2s ease-in-out;
 
-    @media screen and (min-width:768px){
+    @media screen and (min-width:768px) {
         margin: 60px auto;
     }
- }
+}
 
 
- .btn:hover{
-    
+.btn:hover {
+
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     transform: scale(1.1);
-    
 
- }
+
+}
